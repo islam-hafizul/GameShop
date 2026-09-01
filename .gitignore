@@ -1,0 +1,68 @@
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Local environment files
+appsettings.Development.json
+appsettings.*.json
+
+# Log files
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Node (if using any JavaScript/TypeScript)
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Build folder
+.build/
+
+# IDE specific
+.settings/
+.project
+.classpath
