@@ -1,0 +1,31 @@
+GET http://localhost:5276/games
+
+###
+
+GET http://localhost:5276/games/4
+
+###
+POST http://localhost:5276/games
+Content-Type: application/json
+
+{
+  "name": "Cyberpunk 2077",
+  "genre": "Action role-playing",
+  "price": 59.99,
+  "releaseDate": "2020-12-10"
+}
+
+###
+
+PUT http://localhost:5276/games/5
+Content-Type: application/json
+
+{
+  "name": "Minecraft",
+  "genre": "Sandbox",
+  "price": 29.99,
+  "releaseDate": "2011-11-18"
+}
+
+###
+DELETE http://localhost:5276/games/1

@@ -66,3 +66,5 @@ npm-debug.log
 .settings/
 .project
 .classpath
+
+dotnet-tools.json
