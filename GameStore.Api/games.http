@@ -9,23 +9,26 @@ POST http://localhost:5276/games
 Content-Type: application/json
 
 {
-  "name": "Cyberpunk 2077",
-  "genre": "Action role-playing",
-  "price": 59.99,
-  "releaseDate": "2020-12-10"
-}
-
-###
-
-PUT http://localhost:5276/games/5
-Content-Type: application/json
-
-{
   "name": "Minecraft",
-  "genre": "Sandbox",
+  "genreId": 3,
   "price": 29.99,
   "releaseDate": "2011-11-18"
 }
 
 ###
-DELETE http://localhost:5276/games/1
+
+PUT http://localhost:5276/games/4
+Content-Type: application/json
+
+{
+  "name": "Minecraft",
+  "genreId": 3,
+  "price": 19.99,
+  "releaseDate": "2011-11-18"
+}
+
+###
+DELETE http://localhost:5276/games/3
+
+###
+GET http://localhost:5276/genres

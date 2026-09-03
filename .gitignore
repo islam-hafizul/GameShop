@@ -68,3 +68,5 @@ npm-debug.log
 .classpath
 
 dotnet-tools.json
+GameStore.db*
+GameStore.Api/Data/Migrations/
